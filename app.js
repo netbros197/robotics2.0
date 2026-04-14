@@ -6,26 +6,6 @@
   const PROFILE_OVERRIDES_KEY = "profile_overrides";
   const ACCOUNTS = [
     {
-      username: "jssucao",
-      password: DEFAULT_PASSWORD,
-      displayName: "Julianne Savannah Sucao",
-      birthday: "April 11, 2011",
-      committee: "Technichal And Engeeneering",
-      position: "Secretary(JHS)",
-      role: "student",
-      photoDataUrl: "",
-      achievements: [
-        "FLL PARTICIPANT 2026",
-        "FLL SUMMIT 2025 PARTICIPANT",
-        "Perfect Attendance",
-        "Perfect Attendance For Meetings",
-        "Secretary of JHS Robotics Club 2026",
-        "Treasurer Of JHS Robotics Club 2025",
-        "Christmas Party 2025 Attendance",
-      ],
-      forcePasswordChange: false,
-    },
-    {
       username: "admin",
       password: "admin",
       displayName: "Admin",
