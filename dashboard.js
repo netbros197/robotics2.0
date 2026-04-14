@@ -9,12 +9,6 @@
   const SYSTEM_USERNAMES = ["jssucao", "admin"];
   const BASE_ACCOUNTS = [
     {
-      username: "jssucao",
-      password: DEFAULT_PASSWORD,
-      displayName: "Julianne Savannah Sucao",
-      role: "student",
-    },
-    {
       username: "admin",
       password: "admin",
       displayName: "Admin",
