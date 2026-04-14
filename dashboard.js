@@ -999,7 +999,7 @@
   logoutBtn.addEventListener("click", function () {
     function go() {
       sessionStorage.removeItem(SESSION_KEY);
-      window.location.href = "index.html";
+      window.location.href = "https://netbros197.github.io/robotics2.0/";
     }
 
     if (!pageEl) {
