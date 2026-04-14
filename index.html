@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign in</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page" id="app-page">
+    <main class="card" role="main">
+      <div class="brand">
+        <div class="logo">
+          <img
+            class="logo-img"
+            src="logo.jpg"
+            alt="Logo"
+            width="200"
+            height="120"
+            decoding="async"
+          />
+        </div>
+        <h1 class="title">Welcome back</h1>
+        <p class="subtitle">Sign in with your username and password</p>
+      </div>
+
+      <form class="form" id="login-form" novalidate>
+        <div class="field">
+          <label for="username">Username</label>
+          <input
+            id="username"
+            name="username"
+            type="text"
+            autocomplete="username"
+            required
+            minlength="2"
+            placeholder="Enter your username"
+          />
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            autocomplete="current-password"
+            required
+            minlength="4"
+            placeholder="Enter your password"
+          />
+        </div>
+        <p class="error" id="form-error" role="alert" hidden></p>
+        <button type="submit" class="btn-primary" id="submit-btn">Sign in</button>
+      </form>
+
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
