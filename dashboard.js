@@ -6,7 +6,7 @@
   const PROFILE_OVERRIDES_KEY = "profile_overrides";
   const ATTENDANCE_KEY = "attendance_records";
   const DEFAULT_PASSWORD = "ncfrobotics1947";
-  const SYSTEM_USERNAMES = ["jssucao", "admin"];
+  const SYSTEM_USERNAMES = ["admin"];
   const BASE_ACCOUNTS = [
     {
       username: "admin",
